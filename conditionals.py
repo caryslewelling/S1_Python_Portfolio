@@ -1,8 +1,8 @@
 #Conditional Statements
-
+#This project used conditional statements to address different questions
 #Initials
 #Functions
-def vote_check():
+def vote_check(): #checks if a person can vote in the US
     citizen = input("Are you a US citizen?")
     age = int(input("How old are you?"))
     if age >= 18 and citizen == Yes:
@@ -10,7 +10,7 @@ def vote_check():
     else:
         print("You can't vote :(")
 
-def max_num(a,b,c):
+def max_num(a,b,c): #Prints the largest of the three numbers inputed and their value
     if a > b and a > c:
         print("a is the largest number with a value of " + str(a))
     if b > a and b > c:
@@ -18,7 +18,7 @@ def max_num(a,b,c):
     if c > b and c > a:
         print("c is the largest number with a value of " + str(c))
 
-def score_to_grade(score):
+def score_to_grade(score): #Prints a letter grade based on the score given
     if score >= 90:
         print("A")
     elif score >= 80:

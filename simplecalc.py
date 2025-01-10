@@ -1,7 +1,7 @@
 #Carys Lewelling
 #Simple Calculator
+#A tool that allows the user to add, subtract, multiply, or divide and two numbers
 
-#Initial
 #Functions
 def add(num1, num2):#add num1 w num2 and print the results
     result = str(int(num1) + int(num2))

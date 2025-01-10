@@ -1,5 +1,6 @@
 #Carys Lewelling
 #10/17/24
+#This project uses if statements to create a quiz in which the user can determine what fall thing they are
 
 print("Welcome to the fall character 400")
 print("Answer these questions to find out what fall thing you are!")

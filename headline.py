@@ -1,8 +1,8 @@
 #Headline Generator
-#Initial
 
 #Functions
-def believe_headline():
+#Each of these are different headlines created by madlibs, where the user can enter words and a sentece will be produced
+def believe_headline(): 
     noun = input("Please enter a noun:")
     pPronoun = input("Please enter a possesive pronoun (His/Her/Their):")
     place = input("Please enter a place:")
